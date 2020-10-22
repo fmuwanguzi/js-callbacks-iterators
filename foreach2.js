@@ -10,5 +10,17 @@
   {name: "Cottage Cheese", level: "not very"}
 ];
 
+//foods.forEach(function(annonymous){
+  //console.log(`anything , ${annonymous}!`);
+//});
+
+const foods=["pizza", "tacos", "ice cream", "sushi"];
+
+function iterate(item) {
+  console.log(item);
+}
+
+foods.forEach(iterate);
+
 // your code here
 

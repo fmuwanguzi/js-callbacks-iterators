@@ -7,5 +7,9 @@
 // > "I like ice cream"
  
 const foods = ["pizza", "tacos", "ice cream", "sushi"];
+ 
+foods.forEach(function(annonymous){
+    console.log(`anything , ${annonymous}!`);
+});
 
 // your code here
